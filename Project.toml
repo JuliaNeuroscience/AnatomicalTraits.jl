@@ -3,6 +3,11 @@ uuid = "f0d6a564-16ea-4fbf-9429-302b1acaab7f"
 authors = ["Zachary P. Christensen <zchristensen7@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+Metadata = "4fb893c1-3164-4f58-823a-cb4c64eabb4f"
+SpatioTemporalTraits = "6a04ffb7-1155-443c-92eb-f1f26f00354c"
+Static = "aedffcd0-7271-4cad-89d0-dc628f76c6d3"
+
 [compat]
 julia = "1"
 
