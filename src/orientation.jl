@@ -41,12 +41,12 @@ end
 end
 
 """
-    orientation(x)
+    orientation(x) -> Tuple{Vararg{Symbol}}
 
 Returns a tuple providing the orientation of `x`.
 """
 @inline orientation(x) = _orientation(spatial_order(x), x)
-_orientation(dims::Tuple, x) = dims
+_orientation(dims::Tuple, x) = dynamic(dims)
 # if all dimnames are `:_` then there aren't any actual names and we need to derive from
 # spatial_directions
 @inline function _orientation(dims::Tuple{Vararg{StaticSymbol{:_}}}, x)
