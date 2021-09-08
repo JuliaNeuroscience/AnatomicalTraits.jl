@@ -9,6 +9,7 @@ SpatioTemporalTraits = "6a04ffb7-1155-443c-92eb-f1f26f00354c"
 Static = "aedffcd0-7271-4cad-89d0-dc628f76c6d3"
 
 [compat]
+Static = "0.3"
 julia = "1"
 
 [extras]
