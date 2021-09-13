@@ -135,5 +135,4 @@ label(x::AnatomicalRegion) = getfield(x, :label)
 
 @inline hemisphere(x::AnatomicalRegion) = getmeta(x, :hemisphere, "")
 
-
 end

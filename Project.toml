@@ -10,6 +10,10 @@ Static = "aedffcd0-7271-4cad-89d0-dc628f76c6d3"
 
 [compat]
 julia = "1"
+Metadata = "0.2"
+SpatioTemporalTraits = "0.1"
+Static = "0.3"
+
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
